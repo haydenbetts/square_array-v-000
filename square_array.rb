@@ -5,4 +5,6 @@ def square_array(array)
   array.each do |elt|
     squared_array << elt**2
   end
+
+  return squared_array
 end
